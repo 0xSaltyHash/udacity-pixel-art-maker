@@ -13,7 +13,7 @@ function makeGrid() {
     $('#pixel_canvas').append('<tr class="row"></tr>');
     for (var j = 0; j < columns; j++){
       var rowElement = $('.row').last();
-      $(rowElement).append('<th class="cell"></th>');
+      $(rowElement).append('<td class="cell">&nbsp;</td>');
     }
   }
 
